@@ -70,20 +70,6 @@ Copy packages/base/src/index.js into your project.
 It's ~130 lines with comments. Remove the comments and it's 80 lines.
 Fully self-contained. Works without installation.
 
-## Project Structure
-
-hors/
-├── packages/
-│   ├── base/          @hors/base — 17 headers, 0 dependencies
-│   ├── advanced/      @hors/advanced — dynamic CSP and nonce
-│   └── utils/         @hors/utils — helpers and utilities
-├── examples/
-│   ├── express/
-│   ├── fastify/
-│   └── koa/
-├── README.md
-└── LICENSE
-
 ## License
 
 MIT

@@ -1,0 +1,9 @@
+test/
+.github/
+*.test.js
+*.test.mjs
+__tests__/
+coverage/
+.nyc_output/
+.gitignore
+.npmignore

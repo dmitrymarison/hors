@@ -1,0 +1,33 @@
+{
+  "name": "@hors/advanced",
+  "version": "1.0.0",
+  "description": "Advanced security headers with dynamic CSP and nonce generation",
+  "type": "commonjs",
+  "main": "src/index.js",
+  "exports": {
+    ".": {
+      "require": "./src/index.js",
+      "import": "./src/index.mjs",
+      "default": "./src/index.js"
+    }
+  },
+  "files": [
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "@hors/base": "^1.0.0"
+  },
+  "keywords": [
+    "security",
+    "headers",
+    "csp",
+    "nonce",
+    "hors"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

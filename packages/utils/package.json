@@ -1,0 +1,29 @@
+{
+  "name": "@hors/utils",
+  "version": "1.0.0",
+  "description": "Utility functions for building custom security headers middleware",
+  "type": "commonjs",
+  "main": "src/index.js",
+  "exports": {
+    ".": {
+      "require": "./src/index.js",
+      "import": "./src/index.mjs",
+      "default": "./src/index.js"
+    }
+  },
+  "files": [
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "security",
+    "headers",
+    "utils",
+    "hors"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

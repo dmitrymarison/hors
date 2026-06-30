@@ -1,0 +1,47 @@
+{
+  "name": "@hors/base",
+  "version": "1.0.0",
+  "description": "Zero-dependency HTTP security headers middleware — your server's protective light",
+  "type": "commonjs",
+  "main": "src/index.js",
+  "exports": {
+    ".": {
+      "require": "./src/index.js",
+      "import": "./src/index.mjs",
+      "default": "./src/index.js"
+    }
+  },
+  "files": [
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "security",
+    "headers",
+    "http",
+    "helmet-alternative",
+    "csp",
+    "hsts",
+    "xss-protection",
+    "clickjacking",
+    "express",
+    "fastify",
+    "koa",
+    "hors",
+    "zero-dependencies"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmitrymarison/hors.git",
+    "directory": "packages/base"
+  },
+  "bugs": {
+    "url": "https://github.com/dmitrymarison/hors/issues"
+  },
+  "homepage": "https://github.com/dmitrymarison/hors#readme"
+}

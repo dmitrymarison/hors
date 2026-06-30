@@ -2,12 +2,9 @@
 Keywords: helmet alternative, security headers, csp middleware, express security, fastify security, koa security, nodejs security headers, hsts, xss protection, clickjacking protection, zero dependency security
 -->
 
-![npm version](https://img.shields.io/npm/v/@hors/base)
-![npm downloads](https://img.shields.io/npm/dm/@hors/base)
 ![GitHub stars](https://img.shields.io/github/stars/dmitrymarison/hors)
 ![GitHub license](https://img.shields.io/github/license/dmitrymarison/hors)
-![Node.js version](https://img.shields.io/node/v/@hors/base)
-![Tests](https://github.com/dmitrymarison/hors/actions/workflows/ci.yml/badge.svg)
+![Node.js version](https://img.shields.io/badge/node-%3E%3D16-brightgreen)
 
 # Hors
 

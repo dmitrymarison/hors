@@ -1,8 +1,11 @@
+<!--
+Keywords: helmet alternative, security headers, csp middleware, express security, fastify security, koa security, nodejs security headers, hsts, xss protection, clickjacking protection, zero dependency security
+-->
+
 # Hors 🛡️
 
-HTTP security headers middleware without magic.
-0 dependencies (base). Transparent. Understandable.
-Your server under a protective circle of light.
+HTTP security headers middleware for Node.js. Zero dependencies. 
+A lightweight, transparent alternative to helmet for Express, Fastify, and Koa.
 
 ## Philosophy
 
